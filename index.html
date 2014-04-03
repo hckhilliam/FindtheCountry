@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--
+    Free Responsive Template by templatemo
+    http://www.templatemo.com
+-->
+<html lang="en">
+    <head>
+        <title>Find the Country</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="shortcut icon" href="PUT YOUR FAVICON HERE">-->
+
+
+        <!-- Google Web Font Embed -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
+
+        <!-- Custom styles for this template -->
+        <link href="js/colorbox/colorbox.css"  rel='stylesheet' type='text/css'>
+        <link href="css/templatemo_style.css"  rel='stylesheet' type='text/css'>
+
+      
+      
+
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCVQeTacrjApTygqB9tXxiJw6PLCnhdaU&sensor=false">
+    </script>
+
+    <script type="text/javascript" src="js/mapfunc.js"> </script>
+    </head>
+
+    <body>
+
+        <div class="templatemo-top" id="templatemo-top">
+        </div>
+
+         <div class="templatemo-top-menu" >
+            <div class="container">
+                <!-- Static navbar -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                       <div class="navbar-header" id = "templatemo-navbar">
+                            <div class="navbar-brand">
+                                <h1>Find the Country</h1>
+                            </div>
+                        </div>
+                        <div class="navbar-collapse collapse" id="templatemo-nav-bar">
+                            <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
+                                <li class="active"><a href="#templatemo-top">HOME</a></li>
+                                <li><a href="#templatemo-welcome">GAME</a></li>
+                                <li><a href="#templatemo-about">ABOUT</a></li>
+                                <li><a href="#templatemo-contact">CONTACT</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div><!--/.container-fluid -->
+                </div><!--/.navbar -->
+            </div> <!-- /container -->
+        </div>
+
+        <div>
+            <!-- Carousel -->
+            <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="container">
+                            
+
+                            <div class="carousel-caption">
+                                <h1>WELCOME TO FIND THE COUNTRY</h1>
+                                <p>PRESS START TO CONTINUE</p>
+                                <p><a class="btn btn-lg btn-green" role="button" style="margin: 20px;"  data-target="#templatemo-carousel" href="#game">Start</a>
+                            </div>
+                        </div>
+                    </div>
+
+                   <!--  <div class="item">
+                        <div class="container">
+                                    <div id="map-canvas"></div>
+                                    <div id="message"></div> 
+                               
+                        </div>
+                    </div> -->
+                       
+                </div>
+<!--                 <a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+ -->               <!--  <a class="right carousel-control" href="#templatemo-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> -->
+            </div><!-- /#templatemo-carousel -->
+
+        <!--Loading the map/game -->
+
+        <div class="game" id="game">
+            <div class="container">
+                <div class="templatemo-slogan text-center">
+                    <div id="map-canvas"></div>
+
+                    <div class="clearfix"> </div>
+                    <ul class="row row_team">
+                        <li class="col-lg-4 col-md-4 col-sm-6 ">
+                            <div class="text-center">
+                                <div class="team-inner">
+                                   <div id="find"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-4 col-sm-6 ">
+                            <div class="text-center">
+                                <div class="team-inner">
+                                    <div id="score"></div>
+                                    <div id="winner"></div>
+                                    <div id="loser"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-lg-4 col-md-4 col-sm-6 ">
+                            <div class="text-center">
+                                <div class="team-inner">
+                                    <div id="message"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                   <img id="submit" src="data/submit.jpg" href='' onmousedown='check();' onmouseup='ret();'>
+                </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="templatemo-team" id="templatemo-about">
+            <div class="container">
+                <div class="row">
+                    <div class="templatemo-line-header">
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left"/><span>MEET OUR TEAM</span>
+                            <hr class="team_hr team_hr_right" />
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+                    <ul class="row row_team">
+                        <li class="col-lg-3 col-md-3 col-sm-6 ">
+                            <div class="text-center">
+                                <div class="member-thumb">
+                                    <img src="images/William.jpg" class="img-responsive" alt="member 1" height="300" width="300" />
+                                    <div class="thumb-overlay">
+                                        <a href="https://www.facebook.com/Dushz77?fref=ts"><span class="social-icon-fb"></span></a>
+                                    </div>
+                                </div>
+                                <div class="team-inner">
+                                    <p class="team-inner-header">William Ma</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-3 col-sm-6 ">
+                            <div class="text-center">
+                                <div class="member-thumb">
+                                    <img src="images/Tony.jpg" class="img-responsive" alt="member 2" height="300" width="300"/>
+                                    <div class="thumb-overlay">
+                                        <a href="https://www.facebook.com/TonyRunsJin?fref=ts" rel="nofollow"><span class="social-icon-fb"></span></a>
+                                    </div>
+                                </div>
+                                <div class="team-inner">
+                                    <p class="team-inner-header">Tony Jin</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-3 col-sm-6 ">
+                            <div class="text-center">
+                                <div class="member-thumb">
+                                    <img src="images/Dweep.jpg" class="img-responsive" alt="member 3" height="300" width="300"/>
+                                    <div class="thumb-overlay">
+                                        <a href="https://www.facebook.com/dweep.shah.33?fref=ts" rel="nofollow"><span class="social-icon-fb"></span></a>
+                                    </div>
+                                </div>
+                                <div class="team-inner">
+                                    <p class="team-inner-header">Dweep Shah</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-3 col-sm-6 ">
+                            <div class="text-center">
+                                <div class="member-thumb">
+                                    <img src="images/Edicon.jpg" class="img-responsive" alt="member 4" height="300" width="300"/>
+                                    <div class="thumb-overlay">
+                                        <a href="https://www.facebook.com/edicon.chan?fref=ts" rel="nofollow"><span class="social-icon-fb"></span></a>
+                                    </div>
+                                </div>
+                                <div class="team-inner">
+                                    <p class="team-inner-header">Edicon Chan</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        </div><!-- /.templatemo-team -->
+
+        <div id="templatemo-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="templatemo-line-header head_contact">
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">CONTACT US</span>
+                            <hr class="team_hr team_hr_right hr_gray"/>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 contact_right">
+                        <p>Feel free to contact us!</p>
+                        <p><img src="images/location.png" alt="icon 1" /> 155 University Ave. West, Waterloo, ON</p>
+                        <p><img src="images/phone1.png"  alt="icon 2" /> 519-781-2471</p>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /#templatemo-contact -->
+
+        <div class="templatemo-footer" >
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+
+                        <div class="footer_container">
+                            <div class="height30"></div>
+                            <a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top">Back To Top</a>
+                            <div class="height30"></div>
+                        </div>
+                        <div class="footer_bottom_content">Copyright © 2014 <a href="#">Team Jobair Fanclub</a></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js"  type="text/javascript"></script>
+        <script src="js/stickUp.min.js"  type="text/javascript"></script>
+        <script src="js/colorbox/jquery.colorbox-min.js"  type="text/javascript"></script>
+        <script src="js/templatemo_script.js"  type="text/javascript"></script>
+
+    <script type='text/javascript' src='js/logging.js'></script>
+</body>
+</html>
+<!--
+    Free Responsive Template from templatemo
+    http://www.templatemo.com
+-->
+
