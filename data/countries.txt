@@ -1,0 +1,183 @@
+EASY:
+Canada	
+United States	
+China	
+Russia	
+Mexico	
+United Kingdom	
+Australia	
+France	
+Italy	
+Brazil	
+Japan	
+Germany	
+India	
+Spain	
+Ireland	
+South Africa	
+Egypt	
+Iceland	
+Sweden	
+Portugal	
+Argentina	
+Norway	
+Iran	
+New Zealand	
+South Korea	
+Iraq	
+Finland	
+Greece	
+Turkey	
+North Korea	
+Poland	
+Cuba	
+Denmark	
+Ukraine	
+Madagascar		
+Pakistan	
+Netherlands	
+Saudi Arabia	
+Afghanistan	
+Austria	
+Thailand	
+Indonesia	
+Mongolia
+MEDIUM:
+Morocco	
+Peru
+Switzerland	
+Vietnam	
+Niger	
+Belgium
+Colombia
+Chile	
+Israel	
+Democratic Republic of the Congo	
+Congo	
+Panama	
+Uruguay	
+Sudan	
+Malaysia	
+Philippines	
+Venezuela	
+Paraguay	
+Haiti	
+Libya	
+Kenya	
+Kazakhstan	
+Romania	
+Hungary	
+Nigeria	
+Czech Republic	
+Jamaica		
+Algeria	
+Somalia	
+Croatia	
+Latvia	
+Nepal	
+Sri Lanka	
+Papua New Guinea	
+Estonia	
+United Arab Emirates	
+Lithuania	
+Slovakia		
+Chad	
+Yemen	
+Laos	
+Costa Rica		
+Oman	
+Taiwan	
+Belarus	
+Slovenia	
+Albania	
+Honduras
+Dominican Republic
+South Sudan	
+El Salvador	
+Cambodia
+HARD:
+Dominica
+Singapore	
+Ethiopia
+Syria	
+Ecuador	
+Luxembourg	
+Bulgaria
+Jordan	
+Zimbabwe
+Bolivia	
+Republic of the union of myanmar
+Tunisia	
+Serbia	
+Uzbekistan		
+Ghana	
+Guatemala	
+Bosnia and Herzegovina	
+Bangladesh	
+Bahamas	
+Cote d'Ivoire	
+Mali	
+Georgia	
+Nicaragua	
+Belize	
+Uganda	
+Turkmenistan	
+Cyprus	
+Angola	
+Tanzania	
+Vatican City	
+Zambia	
+Guyana	
+Fiji	
+Guinea	
+Andorra	
+Macedonia (FYROM)	
+Lebanon	
+Qatar	
+Botswana	
+Monaco	
+Mozambique		
+Liberia	
+Namibia	
+Moldova	
+Rwanda	
+Kuwait	
+Liechtenstein	
+Malta	
+Suriname	
+Togo	
+Armenia		
+Cameroon	
+Trinidad and Tobago	
+Central African Republic	
+Bhutan	
+Montenegro	
+Barbados	
+Senegal	
+Swaziland	
+Tajikistan	
+Eritrea	
+Lesotho	
+San Marino	
+Malawi	
+Sierra Leone	
+Kyrgyzstan	
+Mauritania	
+Benin	
+Gambia	
+Bahrain	
+Djibouti	
+Saint Kitts and Nevis	
+Gabon	
+Saint Lucia	
+Antigua and Barbuda	
+Equatorial Guinea	
+Burkina Faso	
+Solomon Islands	
+Guinea-Bissau	
+Brunei
+Burundi	
+Marshall Islands	
+Saint Vincent and the Grenadines	
+Timor-Leste	
+Grenada	
