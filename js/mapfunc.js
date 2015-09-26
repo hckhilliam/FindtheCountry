@@ -245,7 +245,7 @@ function initialize() {
 		var status = document.getElementById("currDifficulty");
 		if (difficulty == 1) {
 			status.innerHTML = 'Easy';	
-		} else if (difficulty == 0) {
+		} else if (difficulty == 2) {
 			status.innerHTML = 'Medium';
 		} else {
 			status.innerHTML = 'Hard';
