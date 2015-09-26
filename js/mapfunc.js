@@ -240,6 +240,7 @@ function initialize() {
       document.getElementById("submit").src = "images/submit.PNG";
     }
 
+<<<<<<< HEAD
 	function setDifficulty(difficulty) {
 		mode = difficulty;
 		var status = document.getElementById("currDifficulty");
@@ -252,6 +253,8 @@ function initialize() {
 		}
     }
 
+=======
+>>>>>>> 90bd58d6a80197af21ebcd0397081a0417216994
     function checkCountry(latlng, map) {
       geocoder.geocode({'latLng': latlng}, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK)
