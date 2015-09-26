@@ -123,10 +123,13 @@
                             </div>
                         </li>
                     </ul>
-                   <img id="submit" src="data/submit.jpg" href='' onmousedown='check();' onmouseup='ret();'>
+                   <img id="submit" src="data/submit.jpg" href='' onmousedown='check(this);' onmouseup='ret();'>
                 </div>
-
-                    
+                    <p>Set Difficulty</p>
+                    <input type="button" value="Easy" onclick="setDifficulty(1)"/>
+                    <input type="button" value="Medium" onclick="setDifficulty(2)"/>
+                    <input type="button" value="Hard" onclick="setDifficulty(3)"/>
+                    <p>Current Difficulty: <span id="currDifficulty">Easy</span></p>
                 </div>
             </div>
         </div>

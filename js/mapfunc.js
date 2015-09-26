@@ -240,6 +240,18 @@ function initialize() {
       document.getElementById("submit").src = "images/submit.PNG";
     }
 
+	function setDifficulty(difficulty) {
+		mode = difficulty;
+		var status = document.getElementById("currDifficulty");
+		if (difficulty == 0) {
+			status.innerHTML = 'Easy';	
+		} else if (difficulty == 1) {
+			status.innerHTML = 'Medium';
+		} else {
+			status.innerHTML = 'Hard';
+		}
+    }
+
     function checkCountry(latlng, map) {
       geocoder.geocode({'latLng': latlng}, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK)
