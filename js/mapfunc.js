@@ -243,9 +243,9 @@ function initialize() {
 	function setDifficulty(difficulty) {
 		mode = difficulty;
 		var status = document.getElementById("currDifficulty");
-		if (difficulty == 0) {
+		if (difficulty == 1) {
 			status.innerHTML = 'Easy';	
-		} else if (difficulty == 1) {
+		} else if (difficulty == 0) {
 			status.innerHTML = 'Medium';
 		} else {
 			status.innerHTML = 'Hard';
